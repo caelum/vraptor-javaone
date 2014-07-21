@@ -8,6 +8,7 @@ import br.com.caelum.vraptor.javaone.model.Speaker;
 
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
+import javax.transaction.Transactional;
 
 @Controller
 public class SpeakerController {
@@ -22,6 +23,7 @@ public class SpeakerController {
 	public void add() {
 	}
 
+	@Transactional
 	@Post("/add")
 	public void add(Speaker speaker) {
 		speakerDao.save(speaker);

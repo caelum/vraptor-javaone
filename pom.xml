@@ -7,6 +7,7 @@
     <groupId>br.com.caelum.vraptor</groupId>
     <artifactId>javaone</artifactId>
     <version>1.0.0-SNAPSHOT</version>
+    <packaging>war</packaging>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -41,10 +42,17 @@
         </dependency>
 
         <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.15</version>
+        </dependency>
+
+        <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-validator-cdi</artifactId>
             <version>5.1.1.Final</version>
         </dependency>
+
 
         <dependency>
             <groupId>javax.inject</groupId>
@@ -53,13 +61,13 @@
             <!-- uncomment this line on app servers -->
              <scope>provided</scope>
         </dependency>
-
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-entitymanager</artifactId>
             <version>4.3.0.Final</version>
             <scope>provided</scope>
         </dependency>
+
 
         <dependency>
             <groupId>javax.servlet</groupId>

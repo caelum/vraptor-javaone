@@ -65,6 +65,7 @@
     <orderEntry type="library" name="Maven: org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:1.0.0.Alpha1" level="project" />
     <orderEntry type="library" name="Maven: org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.2_spec:1.0.0.Alpha3" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.el:el-api:2.2" level="project" />
+    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.15" level="project" />
     <orderEntry type="library" name="Maven: org.hibernate:hibernate-validator-cdi:5.1.1.Final" level="project" />
     <orderEntry type="library" name="Maven: org.hibernate:hibernate-validator:5.1.1.Final" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml:classmate:1.0.0" level="project" />
