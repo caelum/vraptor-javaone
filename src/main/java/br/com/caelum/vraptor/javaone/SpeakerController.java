@@ -1,14 +1,13 @@
 package br.com.caelum.vraptor.javaone;
+import javax.inject.Inject;
+import javax.transaction.Transactional;
+
 import br.com.caelum.vraptor.Controller;
 import br.com.caelum.vraptor.Get;
 import br.com.caelum.vraptor.Post;
 import br.com.caelum.vraptor.Result;
 import br.com.caelum.vraptor.javaone.dao.SpeakerDao;
 import br.com.caelum.vraptor.javaone.model.Speaker;
-
-import javax.enterprise.context.RequestScoped;
-import javax.inject.Inject;
-import javax.transaction.Transactional;
 
 @Controller
 public class SpeakerController {
