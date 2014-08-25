@@ -16,6 +16,6 @@ public class SpeakerScheduler {
 
 	@Timeout
 	public void execute(Timer timer) {
-		System.out.println("executando...");
+		System.out.println("executing...");
 	}
 }
