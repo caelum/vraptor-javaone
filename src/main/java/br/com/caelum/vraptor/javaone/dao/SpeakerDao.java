@@ -9,7 +9,7 @@ import javax.persistence.EntityManager;
 
 import java.util.List;
 
-@RequestScoped @Stateless
+@RequestScoped
 public class SpeakerDao {
 
 	@Inject
